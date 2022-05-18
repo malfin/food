@@ -9,6 +9,10 @@
 - ReactJS + хуки
 - React Router
 - Axios
+- Swiper
+- Bootstrap
+- React-Toastify
+- react-content-loader
 - classnames
 
 

@@ -2,8 +2,10 @@ import React, {useState, useEffect} from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import axios from "axios";
 
+// eslint-disable-next-line
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap'
+
 import './static/css/main.modules.css'
 
 import Header from "./components/Header";

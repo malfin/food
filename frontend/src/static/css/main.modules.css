@@ -107,13 +107,14 @@ nav {
 }
 
 
-footer{
+footer {
     background: #FFFFFF;
     box-shadow: 0 0 2px rgba(33, 37, 41, 0.25);
     border-radius: 5px;
     margin-bottom: 2%;
 }
 
-footer .nav-link{
+footer .nav-link {
     color: #FFFFFF;
 }
+

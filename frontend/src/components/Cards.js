@@ -10,8 +10,9 @@ const Cards = ({item}) => {
                 <div className="card-body">
                     <h5 className="card-title">{item.name}</h5>
                     <p className="card-text">
-                        {parse(item.desk)}. {item.weight} гр.
+                        {parse(item.desk)}
                     </p>
+                    <p> {item.weight} гр.</p>
                     {/*<p className="card-text">*/}
                     {/*    /!*{item.weight && item.weight}*!/*/}
                     {/*    */}
@@ -19,8 +20,6 @@ const Cards = ({item}) => {
                     {/*    <h5>Пищевая ценность продукта на 100 г:</h5>*/}
                     {/*    {item.nutritional_value ? parse(item.nutritional_value) : 'Нету данных'}*/}
                     {/*</p>*/}
-
-
                 </div>
                 <div className="card-footer">
                     <div className="d-flex align-items-center justify-content-between">

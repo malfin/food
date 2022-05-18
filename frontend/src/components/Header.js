@@ -27,11 +27,11 @@ const Header = () => {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         {category.map(item => (
                             <li className="nav-item" key={item.id}>
-                                <Link className="nav-link" to={`/${item.name}`}>{item.name}</Link>
+                                <Link className="nav-link" to={`/${item.name}/`}>{item.name}</Link>
                             </li>
                         ))}
                         <li className="nav-item">
-                            <Link className="nav-link" to={'/'}>Личный кабинет</Link>
+                            <Link className="nav-link" to={'/lk/'}>Личный кабинет</Link>
                         </li>
                     </ul>
                 </div>

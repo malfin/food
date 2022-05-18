@@ -2,7 +2,8 @@ import React, {useState, useEffect} from 'react';
 import {Navigation} from 'swiper';
 import {Swiper, SwiperSlide} from "swiper/react";
 
-import axios from "axios";
+import axios from "axios"
+
 
 import "swiper/css";
 
@@ -23,9 +24,8 @@ const Slider = () => {
 
     return (
         <Swiper
-            // install Swiper modules
             modules={[Navigation]}
-            spaceBetween={50}
+            spaceBetween={100}
             slidesPerView={1}
             navigation
             pagination={{clickable: true}}
