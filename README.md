@@ -1,13 +1,21 @@
 # Интернет-магазин по заказу еды - Food
 
 
-**Stack:**
+
+
+
+**Stack Frontend:**
 
 - ReactJS + хуки
 - React Router
-- Django REST framework
 - Axios
 - classnames
+
+
+**Stack Backend**
+- Django REST framework
+- MySQL
+- 
 
 
 **ToDo**
