@@ -15,7 +15,7 @@ const Header = () => {
     }, [])
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-while">
+        <nav className="navbar navbar-expand-lg sticky-top navbar-light bg-while">
             <div className="container">
                 <Link className="navbar-brand" to={'/'}>FoodADA</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
